@@ -3,7 +3,7 @@
 Это команда kuzkirbot. Вас приветствует Владимир Коленченко и Кирилл Кузнецов.
 
 Если вам вдруг понравится бот и вы очень захотите его развернуть (настоятельно не рекомендуется), то вам понадобится:
-Предустановленый PostgreSQL с базой данных surgpubot. В ней следует создать users с полями id BIGINT PRIMARY KEY, name TEXT, message BIGINT.
-Затем в src/config создать .env файл, в нем прописать переменную token.
-Активируем venv и устанавливаем зависимости из requirements.txt.
-Запускаем main.py. 
+1. Предустановленый PostgreSQL с базой данных surgpubot. В ней следует создать таблицу users с полями id BIGINT PRIMARY KEY, name TEXT, message BIGINT.
+2. Затем в src/config создать .env файл, в нем прописать переменную token.
+3. Активируем venv и устанавливаем зависимости из requirements.txt.
+4. Запускаем main.py. 
